@@ -1,7 +1,7 @@
 const strictly = require("@strictly-lang/compiler")
 
-module.exports = function (_snowpackConfig, pluginOptions) {
-  const compiler = strictly({ cwd: pluginOptions.cwd });
+module.exports = function (snowpackConfig,  _pluginOptions) {
+  const compiler = strictly({ cwd: snowpackConfig.root });
 
   return {
     name: 'strictly-plugin',
