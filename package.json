@@ -1,0 +1,26 @@
+{
+  "name": "@strictly-lang/snowpack-plugin",
+  "version": "1.0.0",
+  "description": "snowpack plugin to interact with strictly",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strictly-lang/snowpack-plugin.git"
+  },
+  "keywords": [
+    "snowpack",
+    "strictly"
+  ],
+  "author": "Carlo Jeske",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strictly-lang/snowpack-plugin/issues"
+  },
+  "homepage": "https://github.com/strictly-lang/snowpack-plugin#readme",
+  "peerDependencies": {
+    "@strictly-lang/compiler": "~1.1.6"
+  }
+}
