@@ -1,6 +1,6 @@
 {
   "name": "@strictly-lang/snowpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "snowpack plugin to interact with strictly",
   "main": "src/index.js",
   "scripts": {
